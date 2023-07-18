@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TNB_Test</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/TNB_Test.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-tnb navbar-light py-2 fixed-top" >
+            <div class="container" >
+                <!--!-->
+                <a href="/" class="navbar-brand">
+                    <img src="/assets/TNBLogo_v3.png" alt="tnb_logo" ></a>
+                <!--!-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-expanded="false"></button>
+                    <span class="navbar-toggler-icon" ></span>
+                </button>
+                    <div class="navbar-collapse collapse" id="navmenu" >
+                <ul class="navbar-nav ms-auto" >
+                    <!--!--><!--!--><!--!-->
+                    <li class="nav-item">
+                        <a class="nav-link text-light h5" href="windowslogin/">Log Masuk Staff</a>
+                    </li>
+                <!--!-->
+                <li class="nav-item">
+                <a class="nav-link text-light h5" asp-area="" asp-page="/Login">Log Masuk Pesara</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="p-5 bg-dark text-white site-footer-bottom-bar-center text-center fixed-bottom position-relative">
+        <div class="site-container">
+            <div class="site-footer-bottom-bar-center">
+                Copyright © 2020. Tenaga Nasional Berhad. All Rights Reserved.
+                <br>
+                <a data-bs-toggle="modal" data-bs-target="#tnc1"> Terms and Conditions
+
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script>var Module; window.__wasmmodulecallback__(); delete window.__wasmmodulecallback__;</script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

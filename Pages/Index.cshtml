@@ -1,0 +1,180 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class= "pb-shadow rounded-bottom">
+    <section class="p-5 pt-lg-5 text-sm-start mt-intro">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <p class="lead my-4"></p>
+                    <h1>Pengumuman</h1>
+                    <p></p>
+                    <hr>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <br>
+                                    Semakan Status Kelayakan untuk Anugerah Khidmat Setia: 
+                                    <br>
+                                <p>
+                                    <i class="fa fa-info"></i>&nbsp;
+                                    <a href="CheckStatus">
+                                        <b>Semakan Status</b>
+                                    </a>
+                                </p>
+                                </td>
+                            </tr>
+                        <tr>
+                            <td class="text-wrap">
+                                Tarikh Akhir Menjawab Maklum Balas Kehadiran untuk Anugerah Khidmat Setia:
+                                <br> 
+                                <b>
+                                    <i class="fa fa-calendar">&nbsp;&nbsp;</i>
+                                    <label id="tarikh-tamat">7/7/2023</label>
+                                    </b>
+                                </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <img class="img-fluid w-50 d-none d-sm-block" src="/assets/tnb_building.png">
+            </div>
+        </div>
+
+    <script type="text/javascript">
+        window.showLoader = function () {
+            $("#loading").show();
+        }
+
+        window.hideLoader = function () {
+            $("#loading").hide();
+        }
+
+        function hideModal(id) {
+            $(id).modal('hide');
+        }
+        function hideImportModal(id) {
+            $(id).modal('hide');
+        }
+
+        $(window).on('load', function () {
+            $('#myModal').modal('show');
+            hideLoader();
+        });
+
+        function checkboxFunction() {
+            var checkBox = document.getElementById("checkbox");
+            var text1 = document.getElementById("text1");
+            var text2 = document.getElementById("text2");
+            if (checkBox.checked == true) {
+                text1.style.display = "none";
+                text2.style.display = "block";
+            } else {
+                text1.style.display = "block";
+                text2.style.display = "none";
+            }
+        }
+    </script>
+
+    <script>
+        function onlyOne(checkbox) {
+            var checkboxes = document.getElementsByName('check')
+            checkboxes.forEach((item) => {
+                if (item !== checkbox) item.checked = false
+            })
+        }
+    </script>
+
+    <script>
+        function onlyOne(checkbox) {
+            var checkboxes = document.getElementsByName('check')
+            checkboxes.forEach((item) => {
+                if (item !== checkbox) item.checked = false
+            })
+        }
+    </script>
+
+    <script>
+        function onlyOne(checkbox) {
+            var checkboxes = document.getElementsByName('check')
+            checkboxes.forEach((item) => {
+                if (item !== checkbox) item.checked = false
+            })
+        }
+    </script>
+
+    <script type="text/javascript">
+        function valueTukar() {
+            if ($('.coupon_question').is(":checked"))
+                $(".answer").show();
+            else
+                $(".answer").hide();
+
+
+        }
+    </script>
+
+    <script type="text/javascript">
+        function valueTukar() {
+            if ($('.coupon_question').is(":checked"))
+                $(".answer").show();
+            else
+                $(".answer").hide();
+        }
+    </script>
+
+    <script type="text/javascript">
+        function valueChanged() {
+            if ($('.attend').is(":checked"))
+                $(".answer1").show();
+            else
+                $(".answer1").hide();
+        }
+
+        function attendanceValueChanged() {
+            if ($('.attend').is(":checked")) {
+                $(".answer1").show();
+                $(".answer2").hide();
+            }
+            else {
+                $(".answer1").hide();
+                $(".answer2").show();
+            }
+        }
+
+        function attendanceLiveValueChanged() {
+            if (!$('.attend').is(":checked")) {
+                $(".answer1").show();
+                $(".answer2").hide();
+            }
+            else {
+                $(".answer1").hide();
+                $(".answer2").show();
+            }
+        }
+
+        function assistanceValueChanged() {
+            if ($('.assist').is(":checked")) {
+                $(".assistance").hide();
+            }
+            else {
+                $(".assistance").show();
+            }
+        }
+
+        function assistanceLiveValueChanged() {
+            if (!$('.assist').is(":checked")) {
+                $(".assistance").hide();
+            }
+            else {
+                $(".assistance").show();
+            }
+        }
+    </script>
+    </section>
+</div>

@@ -1,0 +1,167 @@
+/* _content/TNB_Test/Pages/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-bf7n1gk66d] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-bf7n1gk66d] {
+  color: #0077cc;
+}
+
+.bg-dark[b-bf7n1gk66d] {
+  background-color: #212529!important;
+}
+
+.bg-tnb[b-bf7n1gk66d] {
+  background-color: #0053a1;
+}
+
+.btn-primary[b-bf7n1gk66d] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.navbar-nav .nav-link[b-bf7n1gk66d] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.nav-link[b-bf7n1gk66d] {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #0d6efd;
+  text-decoration: none;
+  transition: color .15s
+}
+
+.nav-item[b-bf7n1gk66d]{
+
+}
+
+.nav-pills .nav-link.active[b-bf7n1gk66d], .nav-pills .show > .nav-link[b-bf7n1gk66d] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-bf7n1gk66d] {
+  border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom[b-bf7n1gk66d] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-bf7n1gk66d] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-bf7n1gk66d] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-bf7n1gk66d] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+.ms-auto[b-bf7n1gk66d] {
+  margin-left: auto!important;
+}
+
+.navbar-expand-lg .navbar-collapse[b-bf7n1gk66d] {
+    display: flex!important;
+    flex-basis: auto;
+} 
+
+.navbar-expand-lg .navbar-nav .nav-link[b-bf7n1gk66d] {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.container[b-bf7n1gk66d], .container-fluid[b-bf7n1gk66d], .container-lg[b-bf7n1gk66d], .container-md[b-bf7n1gk66d], .container-sm[b-bf7n1gk66d], .container-xl[b-bf7n1gk66d], .container-xxl[b-bf7n1gk66d] {
+  width: 100%;
+  padding-right: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x,.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar>.container[b-bf7n1gk66d], .navbar>.container-fluid[b-bf7n1gk66d], .navbar>.container-lg[b-bf7n1gk66d], .navbar>.container-md[b-bf7n1gk66d], .navbar>.container-sm[b-bf7n1gk66d], .navbar>.container-xl[b-bf7n1gk66d], .navbar>.container-xxl[b-bf7n1gk66d] {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand[b-bf7n1gk66d] {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navbar-light .navbar-toggler[b-bf7n1gk66d] {
+  color: rgba(0,0,0,.55);
+  border-color: rgba(0,0,0,.1);
+}
+
+.navbar-collapse[b-bf7n1gk66d] {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.collapse:not(.show)[b-bf7n1gk66d] {
+  display: none;
+}
+
+.navbar-toggler-icon[b-bf7n1gk66d] {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}   
+
+.p-5[b-bf7n1gk66d] {
+  padding: 3rem!important;
+}
+
+.py-2[b-bf7n1gk66d] {
+    padding-top: 0.5rem!important;
+    padding-bottom: 0.5rem!important;
+}
+
+.fixed-top[b-bf7n1gk66d] {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.fixed-bottom[b-bf7n1gk66d] {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.position-relative[b-bf7n1gk66d] {
+  position: relative!important;
+}

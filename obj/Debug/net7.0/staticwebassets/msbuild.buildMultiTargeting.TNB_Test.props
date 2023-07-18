@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TNB_Test.props" />
+</Project>

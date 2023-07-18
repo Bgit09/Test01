@@ -1,0 +1,53 @@
+@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<body>
+    <div class="shadow">
+        <div class="p-5 pt-lg-5 text-center text-sm-start mt-intro">
+            <div>
+                <div class="row d-flex">
+                    <div class="col-lg-6">
+                        <div class="card1 pb-5">
+                            <div class="row">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <form id="account" method="post" novalidate="novalidate">
+                            <div class="card2 card border-0 px-4 py-5">
+                                <div class="row px-3 py-4 justify-content-center">
+                                    <img src="/images/login.png" class="img-fluid w-25 d-none d-sm-block" alt="">
+                                </div>
+                                <div class="row px-3 mb-4">
+                                    <label class="mb-1">
+                                        <h6 class="mb-0 text-sm">No. Pekerja</h6>
+                                    </label>
+                                    <input placeholder="Masukkan nombor pekerja yang sah" type="text" data-val="true" data-val-required="The Email field is required." id="Input_Email" name="Input.Email" value="">
+                                </div>
+                                <div class="row px-3 mb-0">
+                                    <label class="mb-1">
+                                        <h6 class="text-sm">Kata Laluan</h6>
+                                    </label> 
+                                    <input placeholder="Masukkan kata laluan yang sah" type="password" data-val="true" data-val-required="The Password field is required." id="Input_Password" name="Input.Password">
+                                </div>
+                                <div class="row d-flex justify-content-center mt-3 px-3">
+                                    <div class="text-danger 123err validation-summary-valid" data-valmsg-summary="true">   
+                                        <ul><li style="display:none"></li>
+                                    </ul>
+                                </div>
+                                <button type="submit" class="btn btn-blue text-center">Log Masuk</button>
+                            </div>
+                        </div>
+                        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8Das-tnEQmNJhSTcMjsxbFv4i095K8cwgbBvm1IS97vzG1ehpj3XngPr_iRUiycIXYDg6mqIV9Hqlmf2hi6nlKhS4IbTuVD8Ik-1lkfOHFG6IgtsiMEnpHFLT5ryk17OeOkKlLoo_upsRtLiXfWgpco">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
